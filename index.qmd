@@ -1,7 +1,69 @@
 ---
-title: "Project Milestones"
+title: "PROJECT MILESTONES"
+subtitle: "ShoreCast: Physics-Informed Prediction of Shoreline Erosion"
+date: 09/28/2026
+author:
+  - name: "Ben J Panackal"
+    affiliation: "University of Wisconsin Madison"
+  - name: "Sam Avramov"
+    affiliation: "University of Wisconsin Madison"
+  - name: "Isha Hebbar"
+    affiliation: "University of Wisconsin Madison"
+  - name: "Heyi Cao"
+    affiliation: "University of Wisconsin Madison"
+
+format:
+  html:
+    toc: true
+    number-sections: true
+  pdf:
+    toc: true
+    number-sections: true
+  docx:
+    toc: true
+    number-sections: true
+format-links:
+  - html
+  - format: pdf
+    text: Download PDF
+    icon: file-pdf
+  - format: docx
+    text: Download Word
+    icon: file-word
 ---
 
-This is a Quarto website.
+## A Short Project Framing
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+ShoreCast is a student research project that aims to create a physics-informed neural network (PINN) to predict how fast the banks of a waterway wear away. Shoreline erosion can damage infrastructure and send sediment and phosphorus into the water. That is why preservation agencies need better predictions to know which parts of the shoreline require intervention sooner than others. The neural network must be physics-informed because a normally trained neural network may not be punished for producing output that is physically impossible; with a physics-informed model, we can punish the model both for getting an incorrect answer and for defying the laws of physics. This project will span 19 weeks. This gives the team enough time to onboard, understand the project, check and wrangle the data, choose the physics rules and build the physics model, test the physics model, create a ranked list to present findings, and finish the report.
+
+## Milestones
+
+| # | Milestone | What we will do | Duration | Completion |
+|:--|:----------|:----------------|:---------|:-----------|
+| 1 | Understand the project | Meet with the stakeholders to understand the project, get the permissions and tools needed for the project, and divide up the work among teammates. | 2 weeks | End of Week 2 |
+| 2 | Check the data | Look for detailed and comprehensive datasets regarding erosion to train the model on. | 2 weeks | End of Week 4 |
+| 3 | Prepare the data | Clean the dataset, making sure that locations are matched with dates, data is labeled appropriately, etc. | 3 weeks | End of Week 7 |
+| 4 | Determine parameters for the model | Select the variables that the model will be trained to predict. | 1 week | End of Week 8; can be done in parallel with step 6 |
+| 5 | Build baseline models | Build a baseline neural network to be able to gauge the benefits of a physics-informed neural network. | 2 weeks | End of Week 10; can be done in parallel with step 6 |
+| 6 | Pick the physics rule for the model | Work with mentors to determine which physical relationship to teach the model, and ensure there is available data to do so. | 3 weeks | End of Week 10; can be done in parallel with steps 4–5 |
+| 7 | Test the rule on a simple example | Check the implementation using simulated data or past data where the expected behavior is known. | 1 week | End of Week 11 |
+| 8 | Build the PINN | Add the physics rule to the training process and adjust how strongly it influences the outcomes of the model. | 3 weeks | End of Week 14 |
+| 9 | Compare model performance | Test the models on test data to see which predicts erosion most accurately, and whether the physics rule is useful. | 2 weeks | End of Week 16 |
+| 10 | Review findings and address problems | Discuss results with sponsors and investigate results. | 1 week | End of Week 17 |
+| 11 | Create a report | Present the predictions, analysis of models, and conclusions in an easy-to-read format (a shoreline risk map or ranked list of segments the sponsor can open without specialized software, plus a benchmark report comparing the PINN against simpler baselines). | 1 week | End of Week 18 |
+| 12 | Finish the report and handoff | Deliver a final presentation to sponsors, the model comparison, the organized dataset, and instructions explaining how to reproduce the work. | 1 week | End of Week 19 |
+
+## Assumptions and Open Clarifying Questions
+
+**Assumptions:**
+
+- Sufficient variables, such as measured overall shoreline retreat over time, can be reliably derived from the provided data.
+- Data processing can be completed as scheduled without significant delay.
+- The team will have enough computing resources to train and test the PINN within the project timeline.
+
+**Questions:**
+
+- How should missing, incomplete, or outdated data be handled in the provided datasets?
+- If the provided datasets are not up to date, how old can the data be and still be acceptable?
+- How much guidance on PINNs will be provided to the participants after kickoff?
+- Given the known issues, including irregular timing and cloud obstruction, what is an appropriate observation frequency?

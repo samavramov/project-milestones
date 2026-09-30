@@ -64,6 +64,6 @@ ShoreCast is a student research project that aims to create a physics-informed n
 **Questions:**
 
 - How should missing, incomplete, or outdated data be handled in the provided datasets?
-- If the provided datasets are not up to date, how old can the data be and still be acceptable?
+- How should differences in observation timing across data sources be handled?
 - How much guidance on PINNs will be provided to the participants after kickoff?
-- Given the known issues, including irregular timing and cloud obstruction, what is an appropriate observation frequency?
+- How should cloud obstruction or other imagery limitations be handled when measuring shoreline change?

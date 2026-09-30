@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PROJECT MILESTONES",
+    "section": "",
+    "text": "ShoreCast is a student research project that aims to create a physics-informed neural network (PINN) to predict how fast the banks of a waterway wear away. Shoreline erosion can damage infrastructure and send sediment and phosphorus into the water. That is why preservation agencies need better predictions to know which parts of the shoreline require intervention sooner than others. The neural network must be physics-informed because a normally trained neural network may not be punished for producing output that is physically impossible; with a physics-informed model, we can punish the model both for getting an incorrect answer and for defying the laws of physics. This project will span 19 weeks. This gives the team enough time to onboard, understand the project, check and wrangle the data, choose the physics rules and build the physics model, test the physics model, create a ranked list to present findings, and finish the report."
+  },
+  {
+    "objectID": "index.html#a-short-project-framing",
+    "href": "index.html#a-short-project-framing",
+    "title": "PROJECT MILESTONES",
+    "section": "",
+    "text": "ShoreCast is a student research project that aims to create a physics-informed neural network (PINN) to predict how fast the banks of a waterway wear away. Shoreline erosion can damage infrastructure and send sediment and phosphorus into the water. That is why preservation agencies need better predictions to know which parts of the shoreline require intervention sooner than others. The neural network must be physics-informed because a normally trained neural network may not be punished for producing output that is physically impossible; with a physics-informed model, we can punish the model both for getting an incorrect answer and for defying the laws of physics. This project will span 19 weeks. This gives the team enough time to onboard, understand the project, check and wrangle the data, choose the physics rules and build the physics model, test the physics model, create a ranked list to present findings, and finish the report."
+  },
+  {
+    "objectID": "index.html#milestones",
+    "href": "index.html#milestones",
+    "title": "PROJECT MILESTONES",
+    "section": "2 Milestones",
+    "text": "2 Milestones\n\n\n\n\n\n\n\n\n\n\n#\nMilestone\nWhat we will do\nDuration\nCompletion\n\n\n\n\n1\nUnderstand the project\nMeet with the stakeholders to understand the project, get the permissions and tools needed for the project, and divide up the work among teammates.\n2 weeks\nEnd of Week 2\n\n\n2\nCheck the data\nLook for detailed and comprehensive datasets regarding erosion to train the model on.\n2 weeks\nEnd of Week 4\n\n\n3\nPrepare the data\nClean the dataset, making sure that locations are matched with dates, data is labeled appropriately, etc.\n3 weeks\nEnd of Week 7\n\n\n4\nDetermine parameters for the model\nSelect the variables that the model will be trained to predict.\n1 week\nEnd of Week 8; can be done in parallel with step 6\n\n\n5\nBuild baseline models\nBuild a baseline neural network to be able to gauge the benefits of a physics-informed neural network.\n2 weeks\nEnd of Week 10; can be done in parallel with step 6\n\n\n6\nPick the physics rule for the model\nWork with mentors to determine which physical relationship to teach the model, and ensure there is available data to do so.\n3 weeks\nEnd of Week 10; can be done in parallel with steps 4–5\n\n\n7\nTest the rule on a simple example\nCheck the implementation using simulated data or past data where the expected behavior is known.\n1 week\nEnd of Week 11\n\n\n8\nBuild the PINN\nAdd the physics rule to the training process and adjust how strongly it influences the outcomes of the model.\n3 weeks\nEnd of Week 14\n\n\n9\nCompare model performance\nTest the models on test data to see which predicts erosion most accurately, and whether the physics rule is useful.\n2 weeks\nEnd of Week 16\n\n\n10\nReview findings and address problems\nDiscuss results with sponsors and investigate results.\n1 week\nEnd of Week 17\n\n\n11\nCreate a report\nPresent the predictions, analysis of models, and conclusions in an easy-to-read format (a shoreline risk map or ranked list of segments the sponsor can open without specialized software, plus a benchmark report comparing the PINN against simpler baselines).\n1 week\nEnd of Week 18\n\n\n12\nFinish the report and handoff\nDeliver a final presentation to sponsors, the model comparison, the organized dataset, and instructions explaining how to reproduce the work.\n1 week\nEnd of Week 19"
+  },
+  {
+    "objectID": "index.html#assumptions-and-open-clarifying-questions",
+    "href": "index.html#assumptions-and-open-clarifying-questions",
+    "title": "PROJECT MILESTONES",
+    "section": "3 Assumptions and Open Clarifying Questions",
+    "text": "3 Assumptions and Open Clarifying Questions\nAssumptions:\n\nSufficient variables, such as measured overall shoreline retreat over time, can be reliably derived from the provided data.\nData processing can be completed as scheduled without significant delay.\nThe team will have enough computing resources to train and test the PINN within the project timeline.\n\nQuestions:\n\nHow should missing, incomplete, or outdated data be handled in the provided datasets?\nIf the provided datasets are not up to date, how old can the data be and still be acceptable?\nHow much guidance on PINNs will be provided to the participants after kickoff?\nGiven the known issues, including irregular timing and cloud obstruction, what is an appropriate observation frequency?"
+  }
+]
